@@ -1,0 +1,28 @@
+{
+  "name": "hello-middleware",
+  "version": "1.0.0",
+  "description": "Un poco de teoría sobre como funciona Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagotrini/hello-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagotrini/hello-middleware/issues"
+  },
+  "homepage": "https://github.com/santiagotrini/hello-middleware#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
